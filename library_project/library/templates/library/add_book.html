@@ -1,0 +1,6 @@
+<h2>Добавить книгу</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Добавить</button>
+</form>
